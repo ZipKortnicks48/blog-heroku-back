@@ -26,7 +26,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DJANGO_DEBUG')
 
-ALLOWED_HOSTS = ['https://blog-of-interesting-things.herokuapp.com/']
+ALLOWED_HOSTS = ['https://blog-of-interesting-things.herokuapp.com/','localhost', '127.0.0.1', '[::1]']
 
 
 # Application definition
